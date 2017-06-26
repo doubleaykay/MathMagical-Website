@@ -1,0 +1,202 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>MathMagical Community Outreach</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="custom.css">
+</head>
+
+<body>
+    <div class="w3-top"> <!--nav bar-->
+        <div class="w3-bar w3-black"> <!--normal navbar-->
+          <a href="#people" class="w3-bar-item w3-button w3-hide-small w3-right">The People</a>
+          <a href="#news" class="w3-bar-item w3-button w3-hide-small w3-right">In The News</a>
+          <a href="#testimonials" class="w3-bar-item w3-button w3-hide-small w3-right">Testimonials</a>
+          <a href="#wwd" class="w3-bar-item w3-button w3-hide-small w3-right">What We Do</a>
+          <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+        </div>
+
+        <div id="demo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium"> <!--dropdown navbar-->
+          <a href="#wwd" class="w3-bar-item w3-button">What We Do</a>
+          <a href="#testimonials" class="w3-bar-item w3-button">Testimonials</a>
+          <a href="#news" class="w3-bar-item w3-button">In The News</a>
+          <a href="#people" class="w3-bar-item w3-button">The People</a>
+        </div>
+        
+        <script>
+        function myFunction() {
+            var x = document.getElementById("demo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else { 
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+        </script> <!--script to make this whole nav abr thing work-->
+    </div>
+    <div class="header-custom"> <!--row 1: header-->
+        <!--How this works
+            This div has a custom class (header-custom) that is set to be 100% the width of the viewport (100vw) while the height is set to be 48% the viewport (50vw). I have no clue why 48% of the height is right but it is and it works lol. This class has a sub class for images that does some random shizznauts and makes the image look the way it does. I have no clue how it works, I literally pulled it from StackOverflow lol:
+
+            https://stackoverflow.com/questions/11552380/how-to-automatically-crop-and-center-an-image
+
+            So there you go. Working header slideshow like we had back on Bootstrap. Bam.
+        -->
+        <img class="mySlides" src="https://lh3.googleusercontent.com/QsTElVVD3Pc_WekfYIltwO0bRkzeJKUmjhVJW5zsuDc7mxSHMRzU88tPnsK1CG_1tZZVAtr1stzmHvBjHcodhPTvQ7vjO3QgFNb6jhP1_fOCJsWuVHooXWR3J8Y-E_UbjlLpSH76JtEyBwnEyOe3TAHtRvObXqj1xFX_FiG1Cu2U8wGyCZ0MtmlpfelSisE-r-qB4Txed_qimuGEbi82WmKTjmLWhv1HH0HJQTobvcbChz_qaGiozE5JylSlceSKqJp6JWXQfnt2K-sgshJTS-TnKd_NbkJhfaKwrUq90kNh1Kqgthvb4H1ePYllZoIpLQ6Tn797Ymvu55bfWzJzISBHgltYUtOV6eHCsgfyWGOPyrzZRktHdRjkCvSa1Jhv04K-7OMP0H2XhyFDB9pOnAP4-uP3oMk5gM6I1fd1x996xi5ZETcTdnNbUcSOd3AppHfhELIpIlwhGFsau7MU2A-rSgF_1FTARIS1c3nymj61M-f5W_1aM-izwW6Dxdw97kAA16pJm7F8lETYdzJZSVN7SjhDhLOHaqueDUZurYJaqR8YBdVPP-2pMP4_EJ8GVe33QW6hqLSqTrHpIhqXWENIL7fzlkS4jL6lMXTyNQsg8g1srNYDcA=w958-h638-no">
+        <img class="mySlides" src="https://lh3.googleusercontent.com/UOwRDv4ow2vAl-8U5ANXBEXPvLv2hCcjpm-YjXo5gtswCEnfXVFswGsrIdw9RHF4Trk24uGDEICXhCV96DU-NipfA924tQXGNBDeYOaAtkMpteK6pdfx48M-g_M4twt3sAliiesDQ_A_S5MkTpXmjUXxqrdcKnQznH3vpbs9_CozHEhkpyAMRw0rQhHdJ0jvlE9uu6oGViHov1Rd2pi4SMZwhDgDM-YS42DUtxIoxnWWZkT4VGCJkhC_pjvXYW_AD0kd8JkEJQQyc-vk1tztQY1iD6wUqFBXp0sdHUcuzdI2huTX2_jqDtll2hH9OY2SJSEYIylCp1rwKmlVYCMUFBNmFCCn_bJgXmv40lX3VlVvdPgeDpTyqXsecVq4kkqvfRMlQjfBJSEKZVa9Z8scBUYwAvfbL3iUFlqRStmdulje9LgR-r_hcrkQba-tuK2rvI2kU6jC5rN7E7nTjRV4UPFrwy2o7NqEk_w8K8GVWBoJg4Gyx4JHzHNQM_nLKWlMDNHaQGL9OErpMlOLemJfn1-7votsIfziDRp1vR_ydUS9jRx6tgnAKeh8XePYB_WbmbTUksDeoB38kN4lvwGRWzbMVxha4JT_t0AvoYMtoQRd_B89EJweLQ=w958-h638-no">
+        <img class="mySlides" src="https://lh3.googleusercontent.com/kKO5APphDlAzj0Zt9c1edcj2R1uKSVK063GqfZWtxabYAiR2zXiUgGB-UAIvQ5ofg3B98n3Jr9uQznfeyKEqtS0BC5viY3af0LMyeWoEfDEK9Bl0d6k6R2Otq4Y2CpC-BFyJlnniWvYovK1EBEtT5zCHDHbXQLUt4B9ACgRtCuG2bnSusRa06di9Jck1Q819ppkLlvBmuEwginaxnAEZrF9JrpxTp5wNH4CiTXj4qUjWNzz_ENFxX_8t4fcnixfaEOPwybV4IiOpuhluXYsgqLipXEv_Ri4MVzvlobYIDUy3e_d7P2joZdabUufWEHkFazvVnEvSZveGPNosIIR3naSq9ljMtlh5eeZLGp-4IqRm-ZhI1Kmu0YdKmcNfpCHLwYqfUoyy-6AhutcKqdQwQ7qGvTtpdTsnK8K2z7JYGyCYuguLZncGHkCSkAMGUjkSv8XLKAbw6B4DowFOED2i-ghjB7DANY9iGY08H-c3ODCcG7txFlkIgFIXrMXKuZNu9Yi1_ps_QEbo-hHR4G9jpUipNGXJj_QvxbTAAsHDVyVr0ggWSwNfNl2ErFFmcgnOtlB-o3OjkEBn4qL4gn-g_wd5CALmc7-h8LXQwTz0syLuZfA8KzHoww=w958-h638-no">
+        <img class="mySlides" src="https://lh3.googleusercontent.com/mRBfWSKgdBEDyDjN6Sp0YkWkJM2LiU6pzHZTu9gk-Hn07luZ009cw6Xub9fM2C70oHfgTNvaisG8DvEaelnl6vK2-Nm-4gi4nFvXJH7Yx_EVKYx5t9K8G1KNZuvOtTMCYxSByCsb-sdN164hSBJeEy8Abjpy4HHzL_HqE28dpO_7PxZ_JYcb6zGet6_vy1tzkZApDVKaC6QjfAD6cpTWbaXxKEpN5w7l9jEKLiww4fUwrPg8q7g8-7fVJknIeR6YuXcvrmVPtKUfH7bxbHsHk4SIlI7wlWjFe5Sa69vCOTAL3sWyRe9BunALKUkp1I2AVGpPJsS575ZbTnmm3t_ZYjkegCLkEROS93ZHiWq0GzV_kk0hOu4pUipHO4Ai7mUVUesC2prLHFddsjc4KxFnh5nQwP7e0plyTW5xIB0w6ypyGlHlhATVWCd8fQA6kuN_ThLfDCIYoe4_pLqUdnTXk_KaoBHwzExRoCA46lYxIlHL4ZDpLFb4UhYWXqGnW5-OyUMipI65LMk13eDewn3nC8zcm_7FgkpA4Rzc20inTUS2DqO6kJvKquGkV9mBlK2Lf9R-1BmhDgNBsgal2bpSnvEC-SNtjcTPAHTIAsosw_lI5ldn3R2Hrw=w958-h638-no">
+        <img class="mySlides" src="https://lh3.googleusercontent.com/If-WM6iWIpMqf3EMlezHQI8FPN_1B-Nck0RR2yYFJRyYn0R7di6rnz8gaHlrcjTcDdoqduo8ywImglOaJ8yQ4IrAaf2lYr1zCIKKqUm9knCMOGkvgS-VfesBusJ5Cu1vh0leTvw1m7-B5AQZdpCLy9c7lATy-qtUPA2bwz7nIIX3_tzemB0XZ7xezsIB2Da37k1sYC-aH3a_rUa95kk8jTjh0EXjofD568wdD08TDhIcxz4kBeRfnGMmzNBYNW-JtKeG5TXJt9ZGG5MgzjMqRZKHzLn4scfFb8uebhVYa94MccVdXUuGctaHWdLFIe4JgNqyJdCULEuCayBUjGCZYLhksHXaLmM2FcoVqbZYoML45lXfnDjAX1FDYSXKVUEJdTzlSnfJrG0A4DNlWAM5W51xtgHc99kmCn9vvIW7_joBNhD-Je4q3lWMRksHyW8airuLMxMcW4ltO0nMcAkmeQacYanGNmY9OBW-8NiOIgPS0k_7EsFWSYrg70J8PBbFRxc9SADj4cZLyQBwWOtZvhbd_OOAUMcxJ3hF9gDIKrjloMXptKJbYGfJNFKq1eRR3ywq1ye-Pu1hc72PPalMvF0tjyS7u01mVTyHGigrQvMRF-R2yA546w=w958-h638-no">
+        <img class="mySlides" src="https://lh3.googleusercontent.com/kadRGqi-GEjuum9UPZLcHflBqFqR9or_xhSGpVSxcx4_TW5WIj6oUDM_BHDNvuTv3x6_VIRHprSCYKu2oNQyZg1BpvJ8TYLOGwCDcQzKh9NThsKijIAC5EuB28J5PpEuiWjr8FkpNRCXm4qNfD6qqKkYAnRQ899XD3K5_f_CNdfJrsNN9hBZp55Sj82o8xNzRJMA02g0YO-vwh2eoHO_1DD8f7ikr4xhmTJYprEl1ZeauWWkp40qALe77sf26EJgLTlbBA9YrBD8YamfQCX3fsm6FnVRbvz0a-VteoTYEaNTq8CfgQ-eqgMD2_h0HeedWqeMmqN6xozTF4iED-JcMI3vCnYLl0VfBdqlRoSb4nsI1-cOCc3uxM97EPaZ1zLXiKmvXqa3-YGKgqFMULokj0u4y6y2Z2DTaRck4NNLnTPdRNWqNbaOJujZ01U9BGp6QNAV-5ld4OXELWCgQNFiEV3ujm84-UUNE7e0vidIxMSLKxPDWNoOM3Omg7IJ1T9wP3tzGtKHPavA8hwCOLA5HLDZYS6CeCsIg2oCdfNtv-WYzmm-jYcgXiPKJ89Ft6Y6uD9dkSVvOzZLo0BykpO-csvBTW66_mNhEyIqIWvAsaPjWfOIDkOlKg=w958-h638-no">
+        <img class="mySlides" src="https://lh3.googleusercontent.com/h6zbZzOWSGLeNsnpqkiLIQ08SReWeYoP8OR43A6QdsPHiKWBiUbMy7Opw8FNsV_mT19Z6JS7stSEdpxcaFD1fxJkehNwFoWMEcdRCQd4uGfXzavzX_2rfuVQ0c63dXIZTrsClHgHLUm8bPflgwnI4IAlYBXJcnRPnAsqAwoyPJgCwYh99EheXRdpZR1WlKIGK3beLTVdEOQtYOdlfGdHPz55zXsye3fjEGPOWRJUtMrKJrJqJBp0cF6PxmHFiAg-d6smgVURT2fzIYH9hl5hKko_8aBHTqJcj9WL3pSWEtMTKbYQYpFGIv-38q7STynvol3gMhJEL4iBHXf85iuoS3CdlQogfeq-akxii7CNDkzpUR08vjRXDEZsKaEmTfKiCDpjn7ZvKdHkRK3M9vpUMzlb0IN62rXtkfSOqQsEd8dEVTFbC4Vo5ZsXtFL9YqfoZQysii4mpvI5aM3d5etyzc07q3H82mcS9EmyVlY-7JmfSkeZhpZeMO6COoCEOomMOTTfxCcoh81PA9Z9bWbtkCz9VUjLXtiQuBuDn5RrgHexrupz3YBbsJr80CiTmhBSFmcrQm1OubzqHyeXyq_4sUbU6QxI8S3D1fz7DDVxMal8-bpYASqUmA=w958-h638-no">
+        <img class="mySlides" src="https://lh3.googleusercontent.com/n0PLhCBNd35la8EApaQEgiC3ubP8WxsY4vrsjj5uwSxixN0wbm0sSO7sSi9CX6-WDfp8XJxcCHFpbM9oE5COMKwuGILLI_53d4uMEhJ8Hg-LhrNAIQJGupJZreSgJHn3b6LK1TXQoNn2EYeBV5M00shhYXU_CevRMTO-3WoJpZ_6EAWQIEIWeTjQkeSdP7mXAKeruU5P9PLEkWVbtq1w3LipH6RsRYcpS7mCAf7RM6wL7MlHJ-ek0w6YIfPq130sCBduxoP9wSY8XVlFG6e13SwFm5pGtA9tW_pNuTKyCLddqiu_FAXqvaDwZIXr6zx4N6Qv_F-2d3z6nsSJkNvl_NQW_tyL1grOo2aAtELdQFWOe-w8bx2R0qjbmj1SNbxwTrMzfGW3IpWdj7A0uuXxDt65xfFshYPh5s0H6JHHK4Xtc2bdDB2o6zb8a6BU9IqYdYIGcSKTkOwCwmA7hyIOGdzUD7fumHA28cKE3AzxLZ8y3kxQMQQbGQLQL8wNCk1mF7JyBUlKpOnLZlFw5YzE7T1r0shrntt1n8KcgmMZ69BA-y-Al0XHbeBG03VRtaiKIJoNKNbPdCiE7x1q6_c55-43lJTyIhsdofg-x6pF9wP1_8qzSFVZwg=w958-h638-no">
+        <img class="mySlides" src="https://lh3.googleusercontent.com/sQkZRlFoQ-fnNHE3Juj6P8iVhb7t7Rz6Tk0z_SRqvS8BC_uAxNV6fkJIcv62i6TNzjqVih4dw2dtdr0278YgMp75pTWXPY1ocyWiDOyT8sAN-dIRgfPp5mu54nvHaS4FX20rxXYtmafg4AEFlIhj3_DlmqH69jWRJzHT_edMO03KApbAX8ZoyLNokaDlwtgCuAL3lAsoFlv9ntX92vPi-DLBIjnhjoJGudAAIMu5x9uFILqwM8jRMC6zv0oh6yRWtfKPPLQahFNNEENYKurgLz7Xry29I9b7yQRuyyPBr6y6ZkfkWajteqrJ1n4btK60ejDdkv0ZZABkKPlP0kfbnEmkYHT9SGK4p--IIDzZTk58Ut3cRAqXg8veTQ9lE_7yVGmfThEeX1UauZ0A7n0g5nUCcCIMyg4qtJYB-LCMGUK4eAIJ5RoO4cp9T73C4xOh1GyeZCAnLmOTiz6EOfULa6vYAp2ebvBGFxbIUEOYzlfRGu6FUq4z7quj-a5W4XLSl5EQpUml_EB-5gsCSPXpsVXTeptbW89__n0EW3T-He1ClP0xKpAjTNX33qfz6ismOJOYIEocwFMBBBANzyB5T2R9yjqg1DLyQG5r8Nu8BO4JPMnFp2Fzxg=w958-h638-no">
+        <img class="mySlides" src="https://lh3.googleusercontent.com/_mVsXfIi9z76oDkenVoahoR3SU4BH8ZtAyOGufWgcQaU_gAJqaA3SEDfVuPQiN-XLSiqR1aQsE24fIoRXbsWm-S_aTi8uZlKjyLxn09ADav4CNs4eFkwYq9jB8Vw9iCe6P4ChdMoycGGcmm8EmE7JmScXwNayLW93kAsa2rSs7jv-a3IXuXUboBejXWSvGCZXcPFXqiMz2YQ-LoAuN34RDARHdaufBYFLIhu2caXJt2BAGU-QcGc0HIiVQypDqnCRAxkEZ7aHxNZ0jrXCP88pEI52WPvusxrAyFaigOo1D6hUJnVAfJwNVT_mVdnKGCAG6WvNWILEaL0vMHnErsgykmDq3Ob5SxofjXslvuP1nqO5r0xuBFq4akcx-8kQTa22kHVmJejOHwPpnf3NJ40H8DKag3RZErQhKTKqRSpUshe_9Uvy_7c9c1EPVOdNWXcWRj8yHd5pDeG3tWvPAP476L-F3ppQ_LGvTPy29vO-vEzbWooJ8m286NjniBdlXekg93zs7CeL_ZFescHtmOUJ8kqUpWROUkHkuvhAYlUKteBU9c2WcPKxUnehxe0sMS4Ilj9yMpY7BRfjNC89ZsjSWDqdaRbKIgsEzc-f8n1498Efjo8qu7lfQ=w958-h638-no">
+        
+        <script>
+            var slideIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.display = "none"; 
+                }
+                slideIndex++;
+                if (slideIndex > x.length) {slideIndex = 1} 
+                x[slideIndex-1].style.display = "block"; 
+                setTimeout(carousel, 3000); // Change image every 3 seconds
+            }
+        </script>
+    </div>
+    <div class="w3-row-padding"> <!--row 2: mission statement-->
+        <div class="w3-panel">
+          <h4><center><i>Our Mission: To inspire an interest in math among middle schoolers by demonstrating the power and uses of math, and to make it fun with magic tricks and impressive mental feats.</i></center></h4>
+        </div>
+    </div>
+    <a name="wwd"></a>
+    <div class="w3-row-padding"> <!--row 3: what we do-->
+        <div class="w3-half w3-container"> <!--slideshow-->
+            
+        </div>
+        <div class="w3-half w3-container"> <!--text-->
+            <h2>w3-half</h2>
+        </div>
+    </div>
+    <a name="testimonials"></a>
+    <div class="w3-row-padding"> <!--row 4: testimonials-->
+    </div>
+    <a name="news"></a>
+    <div class="w3-row-padding"> <!--row 5: in the news-->
+    </div>
+    <a name="people"></a>
+    <div class="w3-row-padding"> <!--row 6: people-->
+        <div class="w3-container">
+            <h1>Meet the People</h1>
+            <div class="w3-bar w3-black"> <!--tab bar-->
+              <button class="w3-bar-item w3-button" onclick="openCity('Somerville')">Somerville</button>
+              <button class="w3-bar-item w3-button" onclick="openCity('Board')">Board</button>
+            </div>
+
+            <div id="Somerville" class="w3-container city w3-animate-opacity"> <!--Somerville people-->
+              <h2>Somerville</h2>
+                <div class="w3-row">
+                    <div class="w3-container w3-quarter"> <!--head-->
+                        <img src="https://placeholdit.imgix.net/~text?txtsize=28&txt=300%C3%97300&w=300&h=300" style="width:300px;height:300px;">
+                        <h2>Coming soon.</h2>
+                        <h3><i>Head, Somerville Branch</i></h3>
+                        <p>We are currently in the process of finding a new head for the Somerville branch to replace Anoush Khan, who will be taking the Board Chair position as he moves on to college.</p>
+                    </div>
+                    <div class="w3-container w3-quarter"> <!--math head-->
+                        <img src="https://placeholdit.imgix.net/~text?txtsize=28&txt=300%C3%97300&w=300&h=300" style="width:300px;height:300px;">
+                        <h2>Max Nadeau</h2>
+                        <h3>
+                            <i>Math Head</i>
+                        </h3>
+                        <p>Coming soon.</p>
+                    </div>
+                    <div class="w3-container w3-quarter"> <!--magic head-->
+                        <img src="https://placeholdit.imgix.net/~text?txtsize=28&txt=300%C3%97300&w=300&h=300" style="width:300px;height:300px;">
+                        <h2>Desi Feldman</h2>
+                        <h3><i>Magic Head</i></h3>
+                        <p>Head of Magic at MCO, Desi Feldman will blow your mind when he gets his hands on a deck of cards. With a background in stage performance and street magic, Desi is always looking for new ways to amaze people. At MCO he is responsible for coordinating magic tricks and putting on a great show.</p>
+                    </div>
+                    <div class="w3-container w3-quarter"> <!--public relations-->
+                        <img src="https://lh3.googleusercontent.com/9A4HYv6lWBXigbWCdjIYC556Nr_WE9wXTTkFx1M0l6d4iuq_JaKwcnrpSNnTqWkDO3Y5OxahRDHpn6Bz5hFENTtwKn6BfIHJp4zPYVkdz5oLHygR1Ssvm7JI8nClkEGuzutaTCm-pE_GOgaEmndYbSXxp5BwO7az8XpsqWGV5fF4nwtKvo7EEPwxM0dfh4svYYidlL2PYhErw7Lg7XCZCs04K8Lj7ijd5Y3Dz1svZxVupysqTAuICzyiueoF1EdD_sKN1pd5_ZPrKXrDjsbTAPczDBBVbw9O3SdwqoVwQ8wc4NzlDLbO8Xu0k8zyjO8e-2wgJAfdnmQ9zqgQNFE5K5TvS9Y68dKAtBtQ7gNeVXG6B1wpm1cQWyFB5jkayWeVSdVzpbDWiXbWtB7sM20y-BlT7E0mG5AwS5xv9QDfF9JSGzwJbNNR00XSiB0VXGoREU9MGajQpRwHqRebDTrFMPEHm9myNF906acTE5CjY6TMNN9N9lHdqAoDsKbRlSOW4CBgd9-42qC6W4kKBCPaPINeHwImTdQpI3rucuorrSPtZa_FZ2A2JqYJEFD9FOpNZa_qlXswd_MxrVBreFFgt3z-2QU1u9y2phcPaLG3_wnjKzvfG0Ce_A=s638-no" style="width:300px;height:300px;">
+                        <h2>Aislinn Canistraro</h2>
+                        <h3><i>Public Relations</i></h3>
+                        <p>As Head of Public Relations at MCO, Aislinn uses her connections to the press and experience in promotional advertising to present MathMagical in the best way possible.  Taking photos at events is the most special part of the position because she gets to capture the wonderful connections and reactions made when students are engaged in the lesson and with the magic! </p>
+                    </div>
+                </div>
+                <div class="w3-row">
+                    <div class="w3-container w3-quarter"> <!--content coordinator-->
+                        <img src="https://lh3.googleusercontent.com/Wb0liZfRFgEBaddYRx0rwYiLp1qZpN0oUIov0-l0_1J_n6lA3Rk9-0oTKZ5_k8kdaI6_360xvbVGWZV3VhbXnGMcUmWYoUjqRw7U9pvMkmiXA_ug75U6Bl00Z1e7iRd4DjL3oX7BPJ_FC-bLklG7ouJl5nuKZ8Z-jukROfN_6NGYvA5oAXWOEvxNqA1UPrPzyV52DPBYy2-hfuA7c7tnBCT9FNNoyWywcD-OmGZYtrJH8Dd8Y5XEWAyFtXSlFWa0UeuExGUrk_MJG648d3RsKHvFseGkT6gxf7EPtBurSYrCl_JfanYmLaZ_MSbOR1AsckKF6nItuZ9iO-jC3VV6rs42gnVpdglZs4z2avJT1mU6jSyizGAaXzm60f2fKuRy7yjJrZ0BvA8dTjCbYgaDgSVez78dSot2LI7hCQ73YFgrtqcLU60gN933DyWtV1JaOP7zhbNLU7FHD3eU_ubcy1Xu5FMf7-YOYUc1nyhzepO82uKMs2KXCQFY-xTVraf6xnu-BVtmyB903kQmjC5JpfBe4Lw3z7wU2xhYquuH_I4uxVKQ_AUlZYTFrsbbqiezy5Jh8B8bX7hhyxw8z2IdvbB4w_7Ve2iu7tqAk7KIiSFhOCL9lQqf_Q=s894-no" style="width:300px;height:300px;">
+                        <h2>Bishan Rai</h2>
+                        <h3><i>Content Coordinator</i></h3>
+                        <p>Forever a student interested in math, Bishan Rai is Content Coordinator at MCO. He enjoys exploring and teaching math in novel ways.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Board" class="w3-container city w3-animate-opacity" style="display:none"> <!--Board people-->
+              <h2>Board</h2>
+                <div class="w3-row">
+                    <div class="w3-container w3-half">
+                        <img src="https://lh3.googleusercontent.com/xEa3P8NMGSGLN_knFl4Z6JtzxKUAgl7xct4fOanrArbOPeHmkS1_Qi9_nGXS70X3sO4GtU29PwkYFVZknwdt2FhKzDvFzbkenY58e87XzAygmdXh-CBAPTnnfKCXZoo9wjTLGFVGw1zqLiH_fooRjXxPWvzzjJQH4SbMQmHldKsVT3MIp-7INPJn3fPZ2AZ9rF8bIClow1K9n8vBHqsQQw6Ud5RGJw3bQkOTLLUNjHkbLCXe85X54tKBn4y3EuMJGnxBHfqLJ_Mx_kPWU1lMjJUSlmrpRm9SJypfSSPlyEevc0UVumjBlOarLUR5fN61YlwCfQAmmCBnh8yvSpLtsL_c7DM-d3LTXz2neW2yrSd1_Ix4_BZVlezZPAmxOqeBaCCgoZwTsZ_if3VAR2LiScisuaUGbpdaxUbs__RaNl5aIiWvHSydQFgjgrTvL2TZlTPEi3QhBBqy_UTcnl_fM9Xv_VEUJ63yDbdpdSA8lIwqhIKguoFk10JTMuHLWWFEToWDwWSjL3hHAndBojhq0qVDgpB9Bz2N6mvORGUUo94ZG8mY-1GEmy4gqMqoxc3bGb8gMNP96v_jYpLos98wGpHNXTHVfpR-0NlIbKe6IiNNHyaSdcJM6w=s894-no" style="width:300px;height:300px;">
+                        <h2>Anoush Khan</h2>
+                        <h3><i>Founder &amp; Board Chair</i></h3>
+                        <p>Anoush Khan was the Head of MathMagical Community Outreach, a role he had
+                            held since its founding. Prior to creating MCO Anoush participated in math
+                            clubs and organizations, responsible for both administration and teaching
+                            in math events for students. He uses this experience, plus his expertise
+                            in close-up magic, to guide MCO as the Board Chair with the goal of enhancing and supplementing
+                            public math education while having fun.</p>
+                    </div>
+                    <div class="w3-container w3-half">
+                        <img src="https://placeholdit.imgix.net/~text?txtsize=28&txt=300%C3%97300&w=300&h=300" style="width:300px;height:300px;">
+                        <h2>Dan Strauss</h2>
+                        <h3><i>Vice Chair</i></h3>
+                        <p>Dan Strauss has been with MCO from the start. Formally Content Coordinator for the Somerville Branch,
+                            he used his training and experience in informal education to design and
+                            teach MathMagical lessons and promote interactivity. A magician since middle
+                            school, he believes that magic and math can elicit a similar type of wonder,
+                            and he wants to share that. Although he specializes in card and coin magic,
+                            Dan also enjoys doing math tricks, solving square and cube roots in the
+                            blink of an
+                            <i>i</i>. He hopes to minor, if not major, in pure mathematics in college.</p>
+                    </div>
+                </div>
+            </div>
+
+            <script>
+                function openCity(cityName) {
+                    var i;
+                    var x = document.getElementsByClassName("city");
+                    for (i = 0; i < x.length; i++) {
+                       x[i].style.display = "none";  
+                    }
+                    document.getElementById(cityName).style.display = "block";  
+                }
+            </script> <!-- script to make tab view changes happen-->
+        </div>
+    </div>
+</body>
+<footer class="w3-container w3-black"> <!--footer-->
+    <div class="w3-row">
+        <div class="w3-container">
+            <h1>© MathMagical Community Outreach 2017</h1>
+        </div>
+        <div class="w3-container w3-half">
+            <p>MCO was founded in March 2015. We are an equal opportunity volunteer organization
+                and believe that anyone can, and should, participate in the betterment
+                of children's education.</p>
+        </div>
+        <div class="w3-container w3-half ">
+            <p>Site built using <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a> framework.</p>
+        </div>
+    </div>
+</footer>
+</html>
